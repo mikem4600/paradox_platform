@@ -24,7 +24,8 @@
         		"config": {
         			"type": "Alarm",
                                 "partition": 0,
-                                "topic": "Paradox/partition1/"
+                                "topic": "Paradox/partition1/",
+                                "cmdtopic": "Paradox/partition1/cmd"
         			}
         	 	},
                         
@@ -33,7 +34,8 @@
         		"config": {
         			"type": "Alarm",
                                 "partition": 1,
-                                "topic": "Paradox/partition2/"
+                                "topic": "Paradox/partition2/",
+                                "cmdtopic": "Paradox/partition2/cmd"                         
         			}
         	 	},
                         
@@ -52,6 +54,7 @@
         			"pgm": 0,
                                 "doorOpensInSeconds": 15,
                                 "topic": "Paradox/garagedoor1/",
+                                "cmdtopic": "Paradox/garagedoor1/cmd",                         
                                 "debounceDelay" : 500
         			}
         	 	},
@@ -97,6 +100,7 @@
         			"pgm": 1,
                                 "doorOpensInSeconds": 25,
                                 "topic": "Paradox/gate1/",
+                                "cmdtopic": "Paradox/gate1/cmd",                                                  
                                 "debounceDelay" : 500
         			}
         	 	}        	 	
